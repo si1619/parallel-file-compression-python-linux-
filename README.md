@@ -7,19 +7,16 @@ The goal is to reduce file size efficiently and quickly by utilizing all CPU cor
 ## Project Structure
 
 parallel-file-compression/
-├── input_files/ # Sample input .txt files
-├── compressed_gzip/ # Output of gzip compression
-├── compressed_bzip2/ # Output of bzip2 compression
-├── compressed_xz/ # Output of xz compression
-├── generate_files.py # Script to generate test files
+├── input_files/                # Sample input .txt files
+├── compressed_gzip/            # Output of gzip compression
+├── compressed_bzip2/           # Output of bzip2 compression
+├── compressed_xz/              # Output of xz compression
+├── generate_files.py           # Script to generate test files
 ├── parallel_compress_python.py # Main script for parallel compression
-├── parallel_compress_shell.sh # Shell script to automate and benchmark
-├── benchmark_compression.sh # Benchmarking shell script
-├── README.md # Project documentation
-└── LICENSE # MIT License
-
-Copy
-Edit
+├── parallel_compress_shell.sh  # Shell script to automate and benchmark
+├── benchmark_compression.sh    # Benchmarking shell script
+├── README.md                   # Project documentation
+└── LICENSE                     # MIT License
 
 ## How It Works
 
@@ -69,7 +66,7 @@ This project is licensed under the MIT License.
 - Inspired by real-world scenarios where files must be compressed for storage or transfer.
 
 ## GitHub Tags (Add these manually)
-python • automation • multiprocessing • file-compression • gzip • devops • shell-script • performance • benchmarking
+python • automation • multiprocessing • file-compression • gzip • shell-script • performance • benchmarking
 
 ## One-line GitHub Description
 Parallel file compression using gzip, bzip2, and xz with Python multiprocessing and shell automation.
