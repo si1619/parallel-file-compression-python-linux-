@@ -7,6 +7,7 @@ The goal is to reduce file size efficiently and quickly by utilizing all CPU cor
 ## Project Structure
 
 parallel-file-compression/
+
 ├── input_files/                # Sample input .txt files
 ├── compressed_gzip/           # Output of gzip compression
 ├── compressed_bzip2/          # Output of bzip2 compression
