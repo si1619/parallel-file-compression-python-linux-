@@ -6,6 +6,7 @@ The goal is to reduce file size efficiently and quickly by utilizing all CPU cor
 
 ## Project Structure
 
+```
 parallel-file-compression/
 ├── input_files/                # Sample input .txt files
 ├── compressed_gzip/            # Output of gzip compression
@@ -17,56 +18,56 @@ parallel-file-compression/
 ├── benchmark_compression.sh    # Benchmarking shell script
 ├── README.md                   # Project documentation
 └── LICENSE                     # MIT License
+```
 
 ## How It Works
 
-1. File Generation  
-   Run the file generator script to create 10 dummy `.txt` files:
+1. **File Generation**  
+   Generate 10 dummy `.txt` files:
+   ```bash
    python generate_files.py
+   ```
 
-2. Parallel Compression  
-   Use the main Python script to compress files using:
-   - gzip (fastest)
-   - bzip2 (better compression)
-   - xz (highest compression)
-
-   Example:
+2. **Parallel Compression**  
+   Compress files using:
+   ```bash
    python parallel_compress_python.py -i input_files -o compressed_gzip -a gzip
+   ```
 
-3. Shell Automation  
-   To run all three compressions and benchmark them:
+3. **Shell Automation**  
+   Run all compressions and benchmark:
+   ```bash
    bash parallel_compress_shell.sh
+   bash benchmark_compression.sh
+   ```
 
 ## Skills Demonstrated
 
 - Python scripting
-- multiprocessing using ProcessPoolExecutor
+- Multiprocessing with `ProcessPoolExecutor`
 - File I/O and compression
 - Shell scripting and benchmarking
-- Automation and performance comparison
+- Automation and performance testing
 
 ## Why This Project?
 
-This project helped me learn how to:
+This project helped me:
 
 - Handle large numbers of files efficiently
 - Use system resources better with parallelism
-- Automate repetitive tasks with shell scripts
+- Automate repetitive tasks
 - Work with real-world tools like gzip, bzip2, and xz
 
-It’s a mini version of what happens in data pipelines and DevOps workflows.
+It’s similar to what happens in DevOps or data engineering pipelines.
 
 ## License
 
 This project is licensed under the MIT License.
 
-## Acknowledgements
+## GitHub Tags (Add manually)
 
-- Developed as part of self-learning for IT operations and system automation.
-- Inspired by real-world scenarios where files must be compressed for storage or transfer.
-
-## GitHub Tags (Add these manually)
-python • automation • multiprocessing • file-compression • gzip • shell-script • performance • benchmarking
+`python` • `automation` • `multiprocessing` • `file-compression` • `gzip` • `shell-script` • `devops` • `benchmarking`
 
 ## One-line GitHub Description
+
 Parallel file compression using gzip, bzip2, and xz with Python multiprocessing and shell automation.
