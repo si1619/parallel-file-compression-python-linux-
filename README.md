@@ -7,16 +7,19 @@ The goal is to reduce file size efficiently and quickly by utilizing all CPU cor
 ## Project Structure
 
 parallel-file-compression/
-
-├── input_files/                # Sample input .txt files
-├── compressed_gzip/           # Output of gzip compression
-├── compressed_bzip2/          # Output of bzip2 compression
-├── compressed_xz/             # Output of xz compression
-├── generate_files.py          # Script to generate test files
+├── input_files/ # Sample input .txt files
+├── compressed_gzip/ # Output of gzip compression
+├── compressed_bzip2/ # Output of bzip2 compression
+├── compressed_xz/ # Output of xz compression
+├── generate_files.py # Script to generate test files
 ├── parallel_compress_python.py # Main script for parallel compression
-├── parallel_compress_shell.sh  # Shell script to automate and benchmark
-├── README.md                  # Project documentation
-└── LICENSE                    # MIT License
+├── parallel_compress_shell.sh # Shell script to automate and benchmark
+├── benchmark_compression.sh # Benchmarking shell script
+├── README.md # Project documentation
+└── LICENSE # MIT License
+
+Copy
+Edit
 
 ## How It Works
 
